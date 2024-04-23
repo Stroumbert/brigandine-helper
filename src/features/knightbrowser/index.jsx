@@ -7,7 +7,6 @@ import PropTypes from 'prop-types';
 import { ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { Typeahead } from 'react-bootstrap-typeahead';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSortUp, faSortDown } from '@fortawesome/pro-solid-svg-icons';
 import _ from 'lodash';
 import { connect } from 'react-redux';
 import knights from '../../data/knights';
@@ -207,7 +206,7 @@ const Knightbrowser = () => {
             />
           </Col>
         </FormGroup>
-      </Form>
+      </Form>o
       <Row>
         <Col sm="12">
           <Table hover striped responsive>
@@ -217,7 +216,7 @@ const Knightbrowser = () => {
                   <th onClick={() => order(kp)}>
                     {kp.name}
                     {sortProp === kp 
-                      && (<FontAwesomeIcon className="float-right" icon={sortOrder === 'asc' ? faSortUp : faSortDown} />)}
+                      && (<FontAwesomeIcon className="float-right" icon={sortOrder === 'asc' ? 'fa-solid fa-sort-up' : 'fa-solid fa-sort-down'} />)}
                   </th>
                 ))}
               </tr>

@@ -12,16 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeremy1015/brigandine-helper.git"
+    "url": "git+https://github.com/Stroumbert/brigandine-helper.git"
   },
-  "author": "Jeremy Sager",
+  "author": "Jeremy Sager, additional fixes by Stroumbert",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jeremy1015/brigandine-helper/issues"
+    "url": "https://github.com/Stroumbert/brigandine-helper/issues"
   },
-  "homepage": "https://jeremy1015.github.io/brigandine-helper",
   "devDependencies": {
-    "gh-pages": "^3.1.0",
     "@babel/cli": "^7.1.5",
     "@babel/core": "^7.2.2",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
@@ -48,6 +46,7 @@
     "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-react": "^7.10.0",
     "file-loader": "^2.0.0",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^3.2.0",
     "jest": "^23.6.0",
     "redux-devtools-extension": "^2.13.5",
@@ -61,13 +60,10 @@
     "webpack-merge": "^4.1.3"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.4",
-    "@fortawesome/free-brands-svg-icons": "^5.3.1",
-    "@fortawesome/free-solid-svg-icons": "^5.3.1",
-    "@fortawesome/pro-light-svg-icons": "^5.3.1",
-    "@fortawesome/pro-regular-svg-icons": "^5.3.1",
-    "@fortawesome/pro-solid-svg-icons": "^5.3.1",
-    "@fortawesome/react-fontawesome": "^0.1.3",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "connected-react-router": "^4.4.1",
     "history": "^4.7.2",
     "lodash": "^4.17.11",
